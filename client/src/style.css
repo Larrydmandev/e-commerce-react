@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -67,6 +68,9 @@ p{
    transition: background 0.5s;
 }
 
+.background{
+    background: radial-gradient(#fff, #ffd6d6);
+}
 .btn:hover{
    background: #563434;
 }
@@ -74,7 +78,6 @@ p{
 .header{
     background: radial-gradient(#fff, #ffd6d6);
 }
-
 .header .row{
     margin-top: 70px;
 }
